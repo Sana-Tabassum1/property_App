@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="2dp"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/NumRoom"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Number of room"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/NumbedRoom"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Number of bedromm"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/NumbathRoom"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Number of bathroom"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/floor"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Number of floor"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Area"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Area"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/houselocation"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="location"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/rent_sale"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="rent/sale"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/fur_nonFur"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Fur/nonfur"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/sppiner_opt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Marla"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginStart="230dp">
+        <ImageButton
+            android:id="@+id/edit"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginEnd="20dp"
+            android:src="@drawable/edit_icon" />
+
+        <ImageButton
+            android:id="@+id/delete"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginEnd="20dp"
+            android:src="@drawable/baseline_delete_24" />
+</LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
